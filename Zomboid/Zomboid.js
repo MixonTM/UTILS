@@ -2,6 +2,8 @@
 *  Zomboid executer UTIL
 *
 *  Author: Astroz
+*
+* Troll: https://pastebin.com/raw/paeaV4hY
 */
 const fs = require('fs'), os = require('os'), uuid = require("uuid");
 
