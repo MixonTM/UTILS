@@ -16,7 +16,7 @@ class ZomboidExec {
     }
 
     Inject(InjectionS) {
-        const RandInjection = "SandboxVars", RandCache = "CacheLua"; // Creating random generated names
+        const RandInjection = "SandboxVars", RandCache = "CacheLua"; // Funny enought the "SandboxVars" will bypass the whole anti-cheat
         InjectionS = InjectionS.replace("FILE_NAME_HERE", `${RandCache}.ini`) // Just updating the file here lol
         //== Injection ==\\
         this.ScriptNames[0] = `${this.ZomboidPath}/media/lua/client/${RandInjection}.lua`,  this.ScriptNames[1] = `${this.LuaCache}/${RandCache}.ini`
